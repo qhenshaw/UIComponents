@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3648b8d2629c4a49897996eabc79e45, type: 3}
+  m_Name: Gamma
+  m_EditorClassIdentifier: 
+  _name: Gamma
+  _default: 0
+  _current: 0
+  _valueMinMax: {x: -0.5, y: 0.5}
+  _sliderMinMax: {x: 0, y: 10}
+  _volumeProfile: {fileID: 11400000, guid: 8676d2d2ed527ae478c267f6ff5be5d5, type: 2}
