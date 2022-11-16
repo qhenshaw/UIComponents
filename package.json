@@ -1,32 +1,17 @@
 {
-  "displayName": "[Package Name]",
+  "displayName": "UI Components",
   "author": "Quin Henshaw",
   "version": "1.0.0",
-  "name": "com.qhenshaw.[packagename]",
-  "documentationUrl": "https://github.com/qhenshaw/[repourl]",
-  "changelogUrl": "https://github.com/qhenshaw/[repourl]/blob/main/CHANGELOG.md",
-  "licensesUrl": "https://github.com/qhenshaw/[repourl]/blob/main/LICENSE.md",
-  "description": "[Description here]",
+  "name": "com.qhenshaw.uicomponents",
+  "documentationUrl": "https://github.com/qhenshaw/UIComponents",
+  "changelogUrl": "https://github.com/qhenshaw/UIComponents/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/qhenshaw/UIComponents/blob/main/LICENSE.md",
+  "description": "Additional UI components useful for building Unity menus and settings windows.",
   "unity": "2020.1",
   "dependencies": {
-    "com.unity.2d.sprite": "1.0.0",
-	"com.unity.ugui": "1.0.0"
-  },
-  "samples": [
-	{
-      "displayName": "[Sample 1 display name]",
-      "description": "[Sample 1 description]",
-      "path": "Samples~/[Sample1Location]"
-    },
-    {
-      "displayName": "[Sample 2 display name]",
-      "description": "[Sample 2 description]",
-      "path": "Samples~/[Sample2Location]"
-    },
-	{
-      "displayName": "[Sample 3 display name]",
-      "description": "[Sample 3 description]",
-      "path": "Samples~/[Sample3Location]"
-    }
-  ]
+    "com.unity.inputsystem": "1.3.0",
+	"com.unity.ugui": "1.0.0",
+	"com.unity.render-pipelines.universal": "12.1.7",
+	"com.unity.render-pipelines.core": "12.1.7"
+  }
 }
