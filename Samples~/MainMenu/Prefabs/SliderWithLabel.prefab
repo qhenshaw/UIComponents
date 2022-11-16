@@ -525,6 +525,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 11
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: cf0b6a3d978c22b46a4cce59be20d23c, type: 2}
+          m_TargetAssemblyTypeName: UIComponents.UnityAudioPlayer, UIComponents.Runtime
+          m_MethodName: PlayOneShot2D
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 2ec8d73c21f502d4d9e288860201d62e,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &2583254466965321910
 MonoBehaviour:
   m_ObjectHideFlags: 0

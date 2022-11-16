@@ -10,5 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 945f30d159bc73e4ea619410638034ba, type: 3}
-  m_Name: UnityAudioPlayer
+  m_Name: SFXAudioPlayer
   m_EditorClassIdentifier: 
+  _mixerGroup: {fileID: 5934041775762101343, guid: e0a16cf31a990cb46a2ef518ea88f7ea,
+    type: 2}
