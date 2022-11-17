@@ -33,5 +33,6 @@ Universal RP
 **To enable FMOD support for settings sliders, add 'FMOD' to your Scripting Define Symbols in Project Settings => Player.**
 
 ## Usage
-Most of the components are fairly simple but the menu hierarchy structure required is complex.  
-A Menu scene sample is coming soon.
+Most of the components are fairly simple but the menu hierarchy structure required is complex.
+
+I recommend importing the Main Menu sample and then customizing your UI using that as a base.

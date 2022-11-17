@@ -414,6 +414,9 @@ GameObject:
   - component: {fileID: 7504354226320431910}
   - component: {fileID: 1039007139538517314}
   - component: {fileID: 2583254466965321910}
+  - component: {fileID: 4812724210707482940}
+  - component: {fileID: 4105598498594868899}
+  - component: {fileID: 5416099425692032966}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -555,3 +558,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _setting: {fileID: 0}
+--- !u!114 &4812724210707482940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273366312550743629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c193f4245fe1149a6143c949dccc89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4105598498594868899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273366312550743629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf833bb666754f43848ff8f10aeea82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 8006731324887499035}
+  _normalOptions:
+    Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    Style: 16
+  _selectOptions:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Style: 17
+--- !u!114 &5416099425692032966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273366312550743629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4180168404f0c74eada901d89f97574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _image: {fileID: 1892917383751715924}
+  _normalColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  _selectColor: {r: 1, g: 1, b: 1, a: 1}
