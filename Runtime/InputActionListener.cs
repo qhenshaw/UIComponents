@@ -30,5 +30,10 @@ namespace UIComponents
             OnPerformed.Invoke();
             _activateButton?.onClick.Invoke();
         }
+
+        public void ForcePerform()
+        {
+            OnPerformed.Invoke();
+        }
     }
 }
