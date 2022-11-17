@@ -1,4 +1,6 @@
 # Changelog
+[1.3.0] - 2022-11-17
+- Added several square UI sprites
 
 [1.2.0] - 2022-11-17
 - Fixed sliders not mouseover selecting properly in sample
