@@ -1,7 +1,7 @@
 {
   "displayName": "UI Components",
   "author": "Quin Henshaw",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "name": "com.qhenshaw.uicomponents",
   "documentationUrl": "https://github.com/qhenshaw/UIComponents",
   "changelogUrl": "https://github.com/qhenshaw/UIComponents/blob/main/CHANGELOG.md",
@@ -9,9 +9,9 @@
   "description": "Additional UI components useful for building Unity menus and settings windows.",
   "unity": "2021.3",
   "dependencies": {
-    "com.unity.inputsystem": "1.x.x",
-	"com.unity.ugui": "1.x.x",
-	"com.unity.render-pipelines.universal": "12.x.x"
+    "com.unity.inputsystem": "1.4.4",
+	"com.unity.ugui": "1.0.0",
+	"com.unity.render-pipelines.universal": "12.1.7"
   },
   "samples": [
 	{
