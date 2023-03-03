@@ -1,4 +1,7 @@
 # Changelog
+[2.1.1] - 2023-03-03
+- Fixed incorrect overlay path
+
 [2.1.0] - 2023-03-03
 - Added SafeRegionOverlay available from GameObject => UI menu
 

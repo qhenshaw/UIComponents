@@ -9,7 +9,7 @@ namespace UIComponents.Editor
     {
         private static bool LoadSafeRegionOverlay(out GameObject overlay)
         {
-            string path = "Packages/UIComponents/Prefabs/SafeRegionOverlay.prefab";
+            string path = "Packages/com.qhenshaw.uicomponents/Prefabs/SafeRegionOverlay.prefab";
             overlay = AssetDatabase.LoadAssetAtPath<GameObject>(path);
             if(overlay == null)
             {
@@ -25,7 +25,8 @@ namespace UIComponents.Editor
         {
             if(LoadSafeRegionOverlay(out GameObject overlay))
             {
-                Object.Instantiate(overlay);
+                GameObject instantiated = Object.Instantiate(overlay);
+                instantiated.name = overlay.name;
             }
         }
     }
