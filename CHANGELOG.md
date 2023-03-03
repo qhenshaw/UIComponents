@@ -1,4 +1,7 @@
 # Changelog
+[2.1.0] - 2023-03-03
+- Added SafeRegionOverlay available from GameObject => UI menu
+
 [1.3.0] - 2022-11-17
 - Added several square UI sprites
 
