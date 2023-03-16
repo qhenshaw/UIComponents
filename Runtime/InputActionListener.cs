@@ -17,12 +17,12 @@ namespace UIComponents
 
         private void OnEnable()
         {
-            _action.action.performed += Performed;
+            if(_action != null) _action.action.performed += Performed;
         }
 
         private void OnDisable()
         {
-            _action.action.performed -= Performed;
+            if(_action != null) _action.action.performed -= Performed;
         }
 
         private void Performed(InputAction.CallbackContext ctx)

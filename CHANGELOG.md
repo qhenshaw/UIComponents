@@ -1,4 +1,8 @@
 # Changelog
+
+[2.1.2] - 2023-03-16
+- Fixed null ref on InputActionListener with no action assigned
+
 [2.1.1] - 2023-03-03
 - Fixed incorrect overlay path
 
