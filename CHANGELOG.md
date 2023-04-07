@@ -1,5 +1,8 @@
 # Changelog
 
+[2.2.0] - 2023-04-07
+- Added HDRP support for gamma slider
+
 [2.1.2] - 2023-03-16
 - Fixed null ref on InputActionListener with no action assigned
 
