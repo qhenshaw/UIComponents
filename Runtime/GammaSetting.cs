@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+#if USING_URP
 using UnityEngine.Rendering.Universal;
+#endif
+#if USING_HDRP
+using UnityEngine.Rendering.HighDefinition;
+#endif
 
 namespace UIComponents
 {
@@ -16,14 +21,28 @@ namespace UIComponents
         {
             base.SetValue(newValue);
 
-            if (_volumeProfile.TryGet(out LiftGammaGain liftGammaGain))
+#if USING_URP
+            if (_volumeProfile.TryGet(out UnityEngine.Rendering.Universal.LiftGammaGain urpLiftGammaGain))
             {
-                liftGammaGain.gamma.value = Vector4.one * newValue;
+                urpLiftGammaGain.gamma.value = Vector4.one * newValue;
             }
             else
             {
                 Debug.LogWarning($"Volume Profile: {_volumeProfile.name} is missing Lift Gamma Gain component.", _volumeProfile);
             }
+#endif
+
+#if USING_HDRP
+            if (_volumeProfile.TryGet(out UnityEngine.Rendering.HighDefinition.LiftGammaGain hdrpLiftGammaGain))
+            {
+                hdrpLiftGammaGain.gamma.value = Vector4.one * newValue;
+            }
+            else
+            {
+                Debug.LogWarning($"Volume Profile: {_volumeProfile.name} is missing Lift Gamma Gain component.", _volumeProfile);
+            }
+#endif
         }
+
     }
 }
