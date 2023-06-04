@@ -6,6 +6,7 @@ using TMPro;
 
 namespace UIComponents
 {
+    [DefaultExecutionOrder(-1)]
     public class TMPSelectOptions : MonoBehaviour, ISelectHandler, IDeselectHandler
     {
         [System.Serializable]

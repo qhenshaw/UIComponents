@@ -1,5 +1,8 @@
 # Changelog
 
+[2.2.1] - 2023-05-04
+- Fixed TMP style not being applied to buttons on screen switch
+
 [2.2.0] - 2023-04-07
 - Added HDRP support for gamma slider
 
